@@ -1,0 +1,21 @@
+
+
+#search-bar,
+#search {
+  width: 500px;
+  margin: 0 auto 0;
+  height: 40px;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.gallery {
+  max-width: 900px;
+  margin: 0px auto 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
+  justify-content: center;
+}
